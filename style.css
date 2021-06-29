@@ -1,0 +1,571 @@
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css");
+#wrapper {
+    position: relative;
+}
+
+#header{
+    display: flex;
+    width: 1904px;
+}    
+
+#header > div.header_nav{
+    color: white;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    margin-left: 450px;
+    margin-top: 30px;
+    
+}
+.header_nav-active:hover{
+    color: rgb(67, 187, 67);
+}
+
+#header > div.header_img > img{
+    margin-left: 340px;
+    width: 200px;
+}
+
+.header_nav-active{
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header_nav_icon{
+    margin-left: 25px;
+    font-size: 16px;  
+}
+
+#advertisement{
+    margin-top: 0%;
+    position:absolute;
+    width: 1904px;
+    display: flex;
+}
+#adver_text{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    margin-left: 340px;
+    margin-right: 100px;
+}
+#advertisement_img > img{
+    width: 400px;   
+    margin-right: 0px;
+    left: 0px;
+    top: 120px;
+    position: relative;
+}
+.advertisement-text h1{
+    margin: 0px auto;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 900;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#adver_text > div.advertisement-cash > h2{
+    margin: 0px auto;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+#adver_text > div.advertisement-button{    
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    display: flex;
+}
+#adver_text > div.advertisement-clause > p{
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#adver_text > div.advertisement-button > button:nth-child(1){
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 2em;
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+#adver_text > div.advertisement-button > button:nth-child(1):hover{
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0px 0px 0px 1px black;
+}
+#adver_text > div.advertisement-button > button:nth-child(2){
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 2em;
+    background-color: #ffcdd2;
+    border: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#adver_text > div.advertisement-button > button:nth-child(2):hover{
+    background-color: rgb(248, 232, 232);
+    font-weight: bolder;
+    font-size: 16px;
+}
+#download{
+    position: relative;
+    top: 540px;
+    text-align: center;
+    width: 1904px;
+    height: 500px;
+}
+.download_main h1{   
+    margin-top: 0px;
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.download_sub h2{
+    font-weight: 500;
+}
+#download > div.download_img{
+    margin-top: 40px;
+}
+
+.download_clause{
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#reason{
+    position: relative;
+    top:600px;
+}
+#reason h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#reason span{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#reason span img{
+    width: 140px;
+    margin-left: 60px;
+}
+.container_subss{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.container_main_sub{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+}
+.container_main_main{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#exp{
+    position: relative;
+    top: 650px;
+
+}
+#exp span img{
+    width: 140px;
+    margin-left: 100px;
+    position: relative;
+    right: 50px;
+}
+
+#exp h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#exp span{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#exp > div.container_subss{
+    margin-left: 350px
+}
+
+#reason > div.container_subss > span:nth-child(2) > img{
+    width: 140px;   
+    margin-left: 55px;
+}
+#reason > div.container_subss > span:nth-child(4) > img{
+    width: 140px;
+    margin-left: 30px;
+}
+#reason > div.container_subss > span:nth-child(4) > p.container_main_main{
+    margin-left: 0px;
+    position: relative;
+    right: 0px;
+}
+#exp > div.container_subss > span:nth-child(1) > p{
+    position: relative;
+    right: 15px;
+}
+#exp > div.container_subss{
+    margin-left: 300px;
+}
+#exp > div.container_subss > span:nth-child(2){
+    margin-left: 10px;
+}
+#exp > div.container_subss > span:nth-child(3){
+    margin-left: 50px;
+}
+#choosing{
+    position: relative;
+    top: 700px;
+    background-color: #f8f8f8;
+    height: 650px;
+}
+
+#choosing-title > h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#choosing-description > p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    position: relative;
+    bottom: 30px;
+}
+
+#choosing-choose{
+    display: flex;
+}
+.choosing-content{
+    border: 0px solid rgb(255, 255, 255); 
+    box-shadow: 0px 0px 0px 3px rgb(190, 190, 190);
+    position: relative;
+    left: 22%;
+    border-radius: 0.3em;
+}
+#choosing-choose > div:nth-child(2){
+    position: relative;
+    left: 28%;   
+}
+.choosing-content-freebox p{
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(46, 119, 208);;
+    text-align: center;   
+    border: padding 10px;
+    width: 100px;height: 25 px;
+    border-radius: 2em;   
+    margin-left: 20px;  
+}
+.choosing-member h3{
+    margin-left: 24px;  
+    position: relative;    
+    bottom: 15px
+}
+.choosing-member-description p{
+    margin-left: 24px;  
+    position: relative;    
+    bottom: 33px;
+}
+hr{
+    align-self: stretch;
+    border-color: rgb(204, 204, 204);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.profit span{
+    font-size: 15px;
+    font-weight: 200;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.start{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 2em;
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.start:hover{
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0px 0px 0px 1px black;
+}
+.choosing-clause p{
+    font-size: 12px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+}
+.choosing-profit{
+    position:relative;
+    bottom: 30px;
+    left:20px;
+}
+#question{
+    position: relative;
+    top: 665px;
+}
+#question > div.question_maintext > h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.question_subtext h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 100%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.question_text p{
+    border: solid 0px black;
+    width: 900px;
+    color: black;
+    font-size: 23px;
+    font-weight: 800;
+    left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: white ;
+    box-shadow: 0px 0px 0px 1px rgb(230, 228, 228);
+    border-radius: 0em;
+    position: relative;
+}
+
+.question_text p:hover{
+    background-color: rgb(230, 228, 228);
+    text-decoration: underline;
+}
+.question_text > p > i {
+    position: relative;
+    left: 480px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+#answer-text p{
+    border: solid 0px black;
+    width: 900px;
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: white ;
+    box-shadow: 0px 0px 0px 1px rgb(230, 228, 228);
+    border-radius: 0em;
+    position: relative;
+    bottom: 70px;
+}
+.hidden {
+    display: none;
+}
+.icon-up > p > i{
+    position: relative;
+    left:1350px;
+    bottom: 70px;
+    
+}
+.icon-down > p > i{
+    position: relative;
+    left:1350px;
+    bottom: 150px;
+    
+}
+.graycolor{
+    width: 100px;
+}
+.graycolor:hover{
+    color: green;
+    
+}
+.sns > p > i{
+    padding: 10px 10px 10px 10px ;
+    position: relative;
+    left: 1300px;
+    bottom: 440px;
+    display: flex;
+    flex-direction: column;
+    border:solid 1px rgb(173, 172, 172);
+    border-radius: 10em;
+    width: 30px;
+}
+.sns{
+    display: flex;
+}
+.sns > p > i:hover{
+    color: green;
+}
+#footer > div.sns > p:nth-child(2) > i{
+    margin-left: 10px;
+}
+#footer > div.sns > p:nth-child(3) > i{
+    margin-left: 10px;
+    position: relative;
+
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+#footer > img{
+    position: relative;
+    left: 380px;
+    top: 90px;
+    width: 200px;
+}
+#company{
+    position: relative;
+    left: 650px;
+    top: 30px;
+}
+#footer_company p{
+    font-size: 12px;
+    color:gray;
+    font-weight: 300;
+}
+.community{
+    position: relative;
+    left: 850px;
+    bottom: 137px;
+    
+}
+#footer_community > p{
+    font-size: 12px;
+    color:gray;
+    font-weight: 300;
+}
+.footer_link{
+    position: relative;
+    left: 1020px;
+    bottom: 317px;
+}
+#footer > div.footer_link > p{
+    font-size: 12px;
+    color:gray;
+    font-weight: 300;
+}
+.footer_info{
+    position: relative;
+    left: 22%;
+    bottom: 120px;
+    font-size: 15px;
+    font-weight: 300;
+    color: gray;
+    display: flex;
+}
+#footer > div.footer_info > p:nth-child(2){
+    margin-left: 10px;
+}
+#footer > div.footer_info > p:nth-child(3){
+    margin-left: 10px;
+}
+
+.footer_language{
+    position: relative;
+    bottom: 170px;
+    left: 71%;
+    font-size: 12px;
+    font-weight: 300;
+    color: gray
+}
+#choosing-choose > div:nth-child(1) > button{
+    position: relative;
+    left: 27%;
+}
+#choosing-choose > div:nth-child() > button{
+    position: relative;
+    left: 27%;
+}
+#footer{
+height: 520px;
+}
+.hiidentextStyle{
+    position: relative;
+    bottom: 120px;
+}
+#answer-text{
+    position: relative;
+    bottom: 10px;
+}
+#question-active > div:nth-child(2){
+    position: relative;    
+    bottom: 75px;
+}
+#question-active > div:nth-child(3){
+    position: relative;    
+    bottom: 150px;
+}
+#question-active > div:nth-child(4){
+    position: relative;    
+    bottom: 225px;
+}
+#question-active > div:nth-child(5){
+    position: relative;    
+    bottom: 300px;
+}
+#question-active > div:nth-child(6){
+    position: relative;    
+    bottom: 378px;
+}
